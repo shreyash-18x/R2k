@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>R2K – Rush to Kill!</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.cdnfonts.com/css/ethnocentric" rel="stylesheet"/> <!-- For headings -->
+  <link href="https://fonts.cdnfonts.com/css/burbank-big-condensed" rel="stylesheet"/> <!-- For body -->
+
+  <style>
+    * { box-sizing: border-box; margin:0; padding:0; }
+
+    body {
+      font-family: 'Burbank Big', sans-serif; /* Body text font */
+      background:#000;
+      color:#fff;
+      text-align:center;
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      position:relative;
+      overflow:hidden;
+    }
+
+    /* Full-screen moving RGB background */
+    .rgb-bg {
+      position: fixed;
+      inset: 0;
+      background: linear-gradient(45deg, red, orange, yellow, green, blue, purple, red);
+      background-size: 700% 700%;
+      mix-blend-mode: screen;
+      opacity: .15;
+      animation: rgbShift 15s linear infinite;
+      z-index:-1;
+    }
+
+    @keyframes rgbShift {
+      0% {background-position:0% 50%;}
+      50% {background-position:100% 50%;}
+      100% {background-position:0% 50%;}
+    }
+
+    /* Headings style */
+    h1 {
+      font-family: 'Ethnocentric', sans-serif; /* Heading font */
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .glow-border {
+      border-radius:12px;
+      padding:6px;
+      background:linear-gradient(90deg,red,orange,yellow,green,blue,purple,red);
+      background-size:400% 400%;
+      animation:rgbShift 8s linear infinite;
+    }
+
+    .glow-btn {
+      margin:8px;
+      padding:10px 28px;
+      background:#350000;
+      border:none;
+      color:#fff;
+      font-size:16px;
+      border-radius:8px;
+      cursor:pointer;
+      box-shadow:0 0 10px #ff0000;
+      transition:.3s;
+    }
+    .glow-btn:hover {
+      transform:scale(1.05);
+      box-shadow:0 0 15px #ff0000,0 0 25px #ff0000;
+    }
+
+    .social-link {
+      display:inline-flex;
+      align-items:center;
+      margin-top:10px;
+      text-decoration:none;
+      color:#ffffff;
+    }
+    .social-link:hover { text-decoration:underline; }
+    .social-link img {
+      width:20px;
+      height:20px;
+      margin-right:6px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="rgb-bg"></div>
+
+<h1>Welcome to R2K Army</h1>
+
+<p>🎮 <strong>Welcome to 𝗥2𝗞 – Rush to Kill!</strong><br>
+Get ready for intense Free Fire battles, savage 1v4 clutches, deadly headshots, and emotional shorts that hit different.</p>
+
+<p>💣 From insane gameplay to viral glitches and love/breakup edits — this is your daily dose of action and emotion.</p>
+
+<p>🎯 New Shorts Every Day<br>
+💔 Real Emotions + 🔫 Real Fights<br>
+🔥 Join the 𝗥2𝗞 ARMY now and dominate the battlefield!</p>
+
+<p>📲 Subscribe, like, and comment to become part of the next gaming revolution.</p>
+
+<h4>👉 #R2K #RushToKill #FreeFireShorts #1v4Clutch #EmotionalGaming #Shorts</h4>
+
+<br>
+
+<div class="glow-border">
+  <iframe width="600" height="350"
+    src="https://www.youtube.com/embed/WBx5cz0LBLc?autoplay=1&mute=1"
+    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+  </iframe>
+</div>
+
+<br>
+
+<a href="https://www.youtube.com/@R2K-RUSHTOKILL" target="_blank">
+  <button class="glow-btn">Subscribe</button>
+</a>
+<a href="https://www.youtube.com/@R2K-RUSHTOKILL" target="_blank">
+  <button class="glow-btn">Like</button>
+</a>
+<a href="https://www.youtube.com/@R2K-RUSHTOKILL" target="_blank">
+  <button class="glow-btn">Share</button>
+</a>
+
+<br><br>
+
+<a class="social-link" href="https://www.instagram.com/shreyash_18x?igsh=NWNpcDhobWZ6c3hv" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" alt="Instagram">
+  Follow on Instagram
+</a><br>
+<a class="social-link" href="https://t.me/+s2e9aVPZAO05YjA9" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/telegram/telegram-original.svg" alt="Telegram">
+  Join Telegram
+</a>
+
+</body>
+</html>
